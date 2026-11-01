@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+*.spec
+
+# Never commit these
+.env
+*.env
+cookies*
+*.cookies
+storage_state*.json
+state.json
+*.har
+*.log
+screenshots/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
