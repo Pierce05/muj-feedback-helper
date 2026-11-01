@@ -4,6 +4,25 @@ A small local tool that logs into the MUJ student portal and fills in your pendi
 
 > **Unofficial.** Not affiliated with or endorsed by Manipal University Jaipur. Use at your own risk (see [Disclaimer](#disclaimer)).
 
+## Quick start: what do I download?
+
+**Don't download only `start.bat`.** It just launches the other files, so on its own it does nothing.
+
+Pick **one** of these:
+
+**Option A: the whole folder (works on Windows, Mac and Linux)**
+1. Click the green **Code** button at the top of this page, then **Download ZIP**.
+2. Right-click the ZIP and **Extract All** (don't run it from inside the ZIP).
+3. Open the extracted folder and double-click **`start.bat`** (Windows) or run `./start.sh` (Mac/Linux).
+4. You need [Python 3.9+](https://www.python.org/downloads/) installed first. During install, tick **"Add python.exe to PATH"**.
+
+**Option B: the `.exe` (Windows only, no Python needed)**
+1. Go to the **Releases** page on the right side of this repo.
+2. Download **`MUJ-Feedback-Helper.exe`** and double-click it.
+3. Windows may show a "protected your PC" warning because the file is unsigned. Only run it if you downloaded it from this repo's Releases page.
+
+You also need Google Chrome or Microsoft Edge (Edge comes with Windows).
+
 ## What it does
 
 1. Logs in with the username and password you type (kept in memory only).
